@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1457185056835
+Bundle-DocURL: http://asm.objectweb.org
+Bundle-ManifestVersion: 2
+Bundle-Name: ASM all classes with debug info
+Bundle-RequiredExecutionEnvironment: J2SE-1.3
+Bundle-SymbolicName: org.objectweb.asm.all
+Bundle-Vendor: France Telecom R&D
+Bundle-Version: 5.1
+Created-By: 1.8.0 (Oracle Corporation)
+Export-Package: org.objectweb.asm.signature;version="5.1",org.objectweb.
+ asm.commons;uses:="org.objectweb.asm,org.objectweb.asm.tree,org.objectw
+ eb.asm.signature";version="5.1",org.objectweb.asm.util;uses:="org.objec
+ tweb.asm,org.objectweb.asm.tree.analysis,org.objectweb.asm.tree,org.obj
+ ectweb.asm.signature";version="5.1",org.objectweb.asm.tree.analysis;use
+ s:="org.objectweb.asm,org.objectweb.asm.tree";version="5.1",org.objectw
+ eb.asm;version="5.1",org.objectweb.asm.xml;uses:="org.xml.sax,org.objec
+ tweb.asm,org.xml.sax.helpers,org.xml.sax.ext,javax.xml.transform.sax,ja
+ vax.xml.transform,javax.xml.transform.stream,org.objectweb.asm.util";ve
+ rsion="5.1",org.objectweb.asm.tree;uses:="org.objectweb.asm";version="5
+ .1"
+Implementation-Title: ASM all classes
+Implementation-Vendor: France Telecom R&D
+Implementation-Version: 5.1
+Import-Package: javax.xml.transform;resolution:=optional,javax.xml.trans
+ form.sax;resolution:=optional,javax.xml.transform.stream;resolution:=op
+ tional,org.xml.sax;resolution:=optional,org.xml.sax.ext;resolution:=opt
+ ional,org.xml.sax.helpers;resolution:=optional
+Tool: Bnd-1.50.0
